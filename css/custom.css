@@ -59,3 +59,34 @@
 .text-sky-light {
   color: #7dd3fc;
 }
+
+.bg-navy {
+  background-color: #0b1329;
+}
+
+.text-sky {
+  color: #38bdf8;
+}
+
+.sidebar-item {
+  color: #94a3b8;
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.sidebar-item:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-item.active {
+  background-color: #1e293b !important;
+  color: #38bdf8 !important;
+}
+
+.sidebar-tip-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
