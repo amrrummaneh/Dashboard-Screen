@@ -180,3 +180,10 @@
     linear-gradient(to top, rgba(244, 63, 94, 0.1), transparent);
   border-bottom: 2px solid #f43f5e;
 }
+.dashboard-card-lg {
+  min-width: 280px;
+}
+
+.dashboard-card-sm {
+  min-width: 180px;
+}
